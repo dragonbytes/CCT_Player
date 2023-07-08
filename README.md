@@ -15,7 +15,7 @@ This player supports 3 file formats: VGM, CCT and M4U. VGM is a standardized for
 
 If you download the whole VHD image for the latest release, in addition to the program itself, you will find an assortment of sample song files that are sorted in directories based on the hardware chip type. VGM files that depend on unsupported chips will not work with this player and will generate an error message explaining why. Running the "cctplay" program by itself without any other arguments will display an extensive list of configuration flags and detailed file format information. Have fun and happy listening!
 
-<br><br>
+<br>
 
 ### New in Version 1.6
 
