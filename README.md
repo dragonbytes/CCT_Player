@@ -13,8 +13,11 @@ A "ChipTune" is basically a music file that contains FM-synthersizer instruction
 
 This player supports 3 file formats: VGM, CCT and M4U. VGM is a standardized format mostly for 8-bit video-game oriented soundtracks. CCT files are Ed Snider's custom CoCo-specific chiptune format compatible with his Mega-Mini MPI and CoCoPSG hardware. M4U files are standard playlist files that allow you to put together your own mixes of chiptunes tracks. If you have more than one of the supported soundchips, you can actually include songs that will play on them all in the same playlist. My player will automatically select the appropriate hardware needed on the fly to play them! I am particuarly proud of this feature! :-D
 
+If you download the whole VHD image for the latest release, in addition to the program itself, you will find an assortment of sample song files that are sorted in directories based on the hardware chip type. VGM files that depend on unsupported chips will not work with this player and will generate an error message explaining why. Running the "cctplay" program by itself without any other arguments will display an extensive list of configuration flags and detailed file format information. Have fun and happy listening!
 
-* New in Version 1.6
+<br><br>
+
+### New in Version 1.6
 
 This update has been long in the making, but I finally feel like it’s ready for the wild! ALOT has changed since my last update of the player. For one thing, I completely restructured the code to make things more modular in order to more easily support other hardware while reusing some of the same routines (more on this shortly). I pretty much had this new version finished a few months ago, but I discovered a bug in the OPL code where it wouldn’t silence all the instruments in a song when you would abruptly stop playback, and I wanted to fix that before releasing it. Then I got sidetracked with boring life stuff, but I finally had time to find the bug and squash it! Sooo on to the good stuff!
 
