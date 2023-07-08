@@ -6,8 +6,7 @@ Written by Todd Wallace
 YouTube: https://www.youtube.com/@tekdragon  
 Website: https://tektodd.com  
 <br>
-![Screenshot 2023-07-08 183848](https://github.com/dragonbytes/CCT_Player/assets/17234382/51b232a8-649c-40eb-b9b1-14c11eb5c99f)
-
+<p align="center"><img src="https://github.com/dragonbytes/CCT_Player/assets/17234382/51b232a8-649c-40eb-b9b1-14c11eb5c99f"></p>
 <br>
 
 A "ChipTune" is basically a music file that contains FM-synthersizer instructions that allow the right hardware to perfectly reproduce the original song. This differs from most of the standard music formats we are used to that contain SAMPLED audio waveforms. (Think MP3s, WAV files, etc). The downside is that in order for chiptunes to be playable, you have to have compatible hardware or software capable of emulating the real hardware. As of version 1.6, my player currently supports 3 different CoCo hardware accessories, the Mega-Mini MPI (which has an onboard OPL 3 soundchip), the CoCoPSG cart, and the GMC (Game Master Cartridge). Both the PSG and GMC can be emulated under MAME, so even if you don't have the hardware, you can still enjoy some chiptune goodness!
